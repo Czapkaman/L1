@@ -16,6 +16,7 @@ void CRC::check(std::vector<bool> key)
 		std::cout << "Invalid!\n";
 }
 
+
 std::vector<bool> CRC::XOR_calculation(std::vector<bool> key)
 {
 	std::vector<bool> temp = vector_bool;

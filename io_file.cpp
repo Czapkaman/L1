@@ -48,6 +48,7 @@ void io_file::get_file_contents(const char* filename)
 		in.seekg(0, std::ios::beg);
 		in.read(&contents[0], contents.size());
 		in.close();
+		this->vector_bool.reserve(contents.size());
 		for (auto& v : contents)
 		{
 			for (int i = 0; i < 8; i++)

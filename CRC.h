@@ -11,4 +11,3 @@ private:
 	std::vector<bool> XOR_calculation(std::vector<bool> key);
 	std::vector<bool> CRC_key;
 };
-
